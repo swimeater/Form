@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 26, 2020 at 02:24 AM
+-- Generation Time: Dec 26, 2020 at 09:13 AM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 7.2.12
 
@@ -47,7 +47,8 @@ CREATE TABLE `tbl_info` (
   `weight` varchar(45) DEFAULT NULL,
   `height` varchar(45) DEFAULT NULL,
   `bmi` varchar(45) DEFAULT NULL,
-  `note` text
+  `note` text,
+  `mosquito_net` varchar(5) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
